@@ -1,5 +1,5 @@
 import HeaderPart from './components/HeaderPart'
-import Todo from './ToDo'
+import Todo from './components/ToDo'
 
 export default function Home() {
     return (
