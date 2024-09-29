@@ -1,4 +1,3 @@
-// components/TodoInput.tsx
 "use client";
 
 import React, { KeyboardEvent } from 'react';
@@ -23,7 +22,7 @@ const TodoInput: React.FC<TodoInputProps> = ({ onAdd }) => {
   };
 
   return (
-    <header className="flex justify-center space-x-2 my-4">
+    <header className="flex justify-center space-x-2 my-4 mx-4">
       <input
         type="text"
         id="item"

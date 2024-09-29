@@ -1,4 +1,3 @@
-// TodoApp.tsx
 "use client";
 
 import React, { useState, useEffect } from 'react';
@@ -47,7 +46,6 @@ const Todo: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 py-8">
-      <h1 className="text-4xl font-bold text-center text-blue-600 mb-8">Todo App</h1>
       {/* Input Component */}
       <TodoInput onAdd={addItem} />
       {/* Todo List Component */}
