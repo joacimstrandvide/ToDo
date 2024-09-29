@@ -1,15 +1,12 @@
 {
   "name": "todo",
   "version": "0.1.0",
-  "homepage": "https://joacimstrandvide.github.io/ToDo",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next export",
-    "deploy": "gh-pages -d out"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.2.13",
